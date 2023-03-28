@@ -1,0 +1,711 @@
+@font-face {
+    font-family: "Charleston-Regular";
+    src: url(../Fonts/Charleston-Regular.otf);
+}
+
+body {
+    font-family: "Filson Soft Regular";
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 1080px;
+    height: 1920px;
+    display: block;
+}
+
+.screen {
+    width: 1080px;
+    height: 1920px;
+    background-color: #FFFFFF;
+    display: inline-block;
+}
+
+.logo {
+    width: 560pt;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.home-menu {
+    text-align: left;
+    display: block;
+    width: 1080px;
+    top: 236pt;
+    position: fixed;
+}
+
+.home-menu-items {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 34px;
+    padding-left: 23px;
+    padding-top: 50px;
+    padding-bottom: 45px;
+    font-size: 75pt;
+    display: block;
+    background-color: #FFFFFF;
+}
+
+
+.NutritionInfo {
+    width: 1080px;
+    
+}
+
+.NutritionTag {
+    width: 100%;
+}
+
+.SizeTag {
+    text-align: center;
+    font-size: 30pt;
+    background-color: #008000;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    width: 170pt;
+    padding-top: 15pt;
+    padding-bottom: 5pt;
+    margin-right: 45pt;
+    margin-left: 45pt;
+    color: #FFFFFF;
+}
+
+    .nutrition-facts-label {
+    color: #808080;
+    width: 100%;
+    font-size: 15px;
+      }
+
+.NutritionTable1 {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1pt solid #8DD400;
+    padding-top: 2pt;
+    padding-bottom: 1pt;
+}
+
+.NutritionRow {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1pt solid #8DD400;
+    padding-top: 2pt;
+    padding-bottom: 1pt;
+    text-align: left;
+}
+
+.threecol {
+    display: inline-block;
+    width: 30%;
+}
+
+.section-title {
+  padding-bottom: 4rem;
+
+}
+
+
+
+  .table-wrapper {
+    border: 3pt solid #008000;
+    display: inline-block;
+    border-radius: 15px;
+    width: 28%;
+    float: left;
+    font-size: 5pt;
+    padding-top: 5pt;
+    padding-right: 5pt;
+    padding-bottom: 5pt;
+    padding-left: 5pt;
+    margin-left: 27px;
+    background-color: #FFFFFF;
+    }
+
+	.table-wrapper2 {
+    border: 3pt solid #008000;
+    display: block;
+    border-radius: 15px;
+    width: 30%;
+    font-size: 5pt;
+    padding-top: 5pt;
+    padding-right: 5pt;
+    padding-bottom: 5pt;
+    padding-left: 5pt;
+    margin-left: auto;
+    background-color: #FFFFFF;
+    margin-right: auto;
+    text-transform: uppercase;
+    }
+
+
+
+    .dk-green-text {
+    color: #008000;
+    }
+
+
+
+    .nut-table-title {
+    display: block;
+    border-bottom: 1px solid gray;
+    font-weight: 500;
+    padding-top: 2pt;
+    padding-bottom: 2pt;
+    }
+
+    .nut-cal-count {
+    display: block;
+    border-bottom: 1pt solid #008000;
+    padding-top: 2pt;
+    padding-bottom: 4px;
+    font-weight: 500;
+    }
+
+
+
+
+
+        
+
+      thead {
+}
+
+        th {
+    font-weight: 500;
+    display: none;
+        }
+
+      tr {
+    text-align: center;
+}
+
+        .cell-header {
+    font-weight: 400;
+    text-align: left;
+        }
+
+        td {
+    text-align: left;
+    display: inline-block;
+          }
+
+            
+          .caloriesFromFat {
+
+            font-weight: normal;
+
+          }
+
+
+
+      .nutrition-extra {
+    width: 75%;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4pt;
+    padding-bottom: 4px;
+        }
+
+        tr {
+    float: left;
+    width: 50%;
+	display: inline-block;
+          }
+
+      .footnote {
+
+        scroll-margin-top: 11.25rem;
+
+      }
+
+  .nutrition-facts {
+
+    padding-top: 6.1rem;
+
+    }
+
+
+    .nutrition-facts-title {
+
+      font-weight: 500;
+      line-height: 1.33;
+      display: block;
+
+    }
+
+    ul { 
+
+      padding-left: 0;
+      list-style: none;
+      
+      }
+
+  .bottom-common-detail {
+    font-size: .9rem;
+    width: 100%;
+}
+
+    td2 {
+
+	width: 20%;
+    display: inline-block;
+    }
+
+  
+
+  .cal-fat {
+
+    float: right;
+
+  }
+
+th1 {
+    display: inline-block;
+    width: 30%;
+}
+
+
+tr1 {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1pt solid #8DD400;
+    padding-top: 2pt;
+    padding-bottom: 1pt;
+}
+
+td1 {
+    margin-left: 0px;
+    width: 30%;
+    display: inline-block;
+}
+
+.sr-only {
+    opacity: 0;	
+}
+
+tr2 {
+    display: inline-block;
+    width: 100%;
+}
+
+th2 {
+    width: 20%;
+    display: inline-block;
+}
+
+.bold {
+    font-weight: bolder;	
+}
+
+.Info {
+    width: 1080px;
+    display: block;
+    padding-top: 15px;
+}
+
+.BG {
+    z-index: -1;
+}
+
+.allergens {
+    width: 760pt;
+    background-color: #EAF4D7;
+    display: inline-block;
+    margin-left: 25pt;
+    margin-top: 30px;
+    padding-top: 10pt;
+    padding-bottom: 5pt;
+    text-align: center;
+    font-size: 15pt;
+    line-height: 25pt;
+    margin-bottom: 10px;
+}
+
+.ingredients {
+    width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20pt;
+    font-size: 15pt;
+    text-align: center;
+    line-height: 15pt;
+    display: inline-block;
+    left: 40px;
+    position: relative;
+}
+
+
+
+.Back-button {
+    width: 100pt;
+    background-color: #008000;
+    border-radius: 68px;
+    font-size: 35pt;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding-left: 20pt;
+    padding-right: 20pt;
+    padding-top: 25pt;
+    padding-bottom: 20pt;
+    margin-top: 15pt;
+    margin-right: 15pt;
+    margin-bottom: 15pt;
+    margin-left: 15pt;
+    float: right;
+    text-align: center;
+}
+
+.Name {
+    width: 1080px;
+    font-size: 60pt;
+    margin-top: 25px;
+    font-family: "Filson Soft Heavy", "Filson Soft Book";
+    display: inline-block;
+    height: 110px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+sup {
+    font-size: 30%;
+}
+
+.Product {
+    width: 1080px;
+    margin-top: 30px;
+    height: 620px;
+    margin-bottom: 40px;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.ProductImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 130%;
+    width: auto;
+    top: -75px;
+    position: relative;
+}
+
+.BowlProductImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 180%;
+    width: auto;
+    position: relative;
+    top: -400px;
+}
+
+.nutritiontext {
+    display: block;
+    width: 78%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25pt;
+    position: relative;
+}
+
+
+.Tag {
+    font-size: 26pt;
+    text-align: left;
+    color: #FFFFFF;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    top: -5px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+th3 {
+    background-color: #008000;
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+    padding-top: 15pt;
+    padding-bottom: 9pt;
+    margin-right: 63px;
+    text-align: center;
+    margin-left: 63px;
+    margin-bottom: -24px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+
+
+
+
+.Classic-Menu {
+    background-image: url(../img/JJ_Classic_BG.jpg);
+}
+
+hc1 {
+    font-family: "Filson Soft Heavy", "Filson Soft Book";
+    font-size: 37pt;
+    line-height: 0pt;
+}
+
+hc2 {
+    font-size: 15pt;
+}
+
+.MenuItem {
+    display: inline-block;
+    width: 100%;
+    margin-left: 30pt;
+    margin-top: 15pt;
+    margin-bottom: 15pt;
+    line-height: 35px;
+}
+
+.Bowls-Menu {
+    background-image: url(../img/JJ_Bowls_BG.jpg);
+}
+
+#Bowls-Menu-list {
+    width: 1080px;
+}
+
+.header {
+    float: left;
+    display: inline-block;
+    width: 100%;
+    height: 100pt;
+    margin-bottom: 25px;
+}
+
+h1 {
+    float: left;
+    font-size: 75pt;
+    line-height: 30pt;
+    padding-left: 40px;
+}
+
+.bowlcolor {
+    color: #cf462d;
+}
+
+.ProductName {
+    font-family: "Filson Soft Heavy", "Filson Soft Book";
+    font-size: 36pt;
+}
+
+.ProductCal {
+    padding-left: 5px;
+    font-size: 17pt;
+}
+
+.ProductContains {
+    padding-left: 5px;
+    font-size: 15pt;
+    text-transform: uppercase;
+    color: #6F6F6F;
+}
+
+.Bold {
+    font-family: "Filson Soft Heavy", "Filson Soft Book";
+    padding-right: 5px;
+}
+
+.ProductInfo {
+    font-size: 15pt;
+    vertical-align: 0px;
+    line-height: 20pt;
+}
+
+.superblends-Menu {
+    background-image: url(../img/JJ_Blends_BG.jpg);
+}
+
+.SBcolor {
+    color: #F2A92E;	
+}
+
+.headertext {
+    font-family: "Filson Soft Regular";
+    font-size: 72pt;
+    padding-left: 40px;
+    line-height: 135pt;
+}
+
+.sub-headertext {
+    font-family: "Charleston-Regular";
+    padding-left: 15pt;
+    font-size: 30pt;
+    top: -15pt;
+    position: relative;
+    font-weight: bolder;
+}
+
+.ProductName2 {
+    font-family: "Filson Soft Heavy", "Filson Soft Book";
+    font-size: 16pt;
+    text-transform: uppercase;
+}
+
+.ProductNamesub {
+    font-family: "Filson Soft Heavy", "Filson Soft Book";
+    font-size: 23pt;
+}
+
+.plantbased-Menu {
+    background-image: url(../img/JJ_plant-based_BG.jpg);
+}
+
+.PBcolor {
+    color: #7BBF4F;	
+}
+
+.Beverages-Menu {
+    background-image: url(../img/JJ_Beverages_BG.jpg);
+}
+
+.Bcolor {
+    color: #257058;	
+}
+
+.outleft {
+    left: 1080px;
+    position: absolute;
+}
+
+.inactive {
+    display: none;	
+}
+
+.Home {
+    background-color: #FFFFFF;
+}
+
+.left {
+    left: -1080px;
+    position: absolute;
+}
+
+.right {
+    position: absolute;
+    left: 1080px;
+}
+
+.classicheadertext {
+    font-family: "Filson Soft Regular";
+    font-size: 170pt;
+    top: 130px;
+    position: relative;
+    left: 15px;
+}
+
+.classicsub-headertext {
+    font-family: "Charleston";
+    font-size: 70pt;
+    float: right;
+    padding-right: 120px;
+    padding-top: 65px;
+}
+
+.Classicheader {
+    display: inline-block;
+    width: 1080px;
+    height: 470px;
+}
+
+.Ccolor {
+    color: #ED8451;	
+}
+
+.MenuItem2 {
+    width: 411px;
+    margin-left: 34pt;
+    margin-top: 10pt;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 35px;
+}
+
+.2rows {
+    width: 1080px;
+    display: inline-block;
+    height: 342px;
+    float: right;
+}
+
+.juice-menu {
+    top: 697px;
+    position: fixed;
+}
+
+.shots-menu {
+    position: fixed;
+    top: 1466px;
+}
+
+.Juices-Menu {
+    background-color: #FFFFFF;	
+}
+
+.ShotsProductImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300%;
+    width: auto;
+    position: relative;
+    top: -794px;
+    left: -367px;
+}
+
+.bites-menu {
+    position: fixed;
+    top: 1100px;
+}
+
+.Kids-menu {
+    position: fixed;
+    top: 1445px;
+}
+
+.BiteProductImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 185%;
+    width: auto;
+    position: relative;
+    top: -245px;
+}
+
+.Bowls-slide {
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    position: fixed;
+    top: 201px;
+    left: 780px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.Bowls-slide-image {
+    width: 630px;
+    left: -93px;
+    top: -247px;
+    position: relative;
+}
+
+.Bowls-slide-text {
+    position: relative;
+    top: 10px;
+    left: 70px;
+    font-size: 20pt;
+    z-index: 1;
+}
