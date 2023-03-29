@@ -308,6 +308,8 @@ th2 {
 
 .BG {
     position: absolute;
+    width: 0px;
+    top: 0px;
     z-index: -1;
 }
 
