@@ -307,8 +307,6 @@ th2 {
 }
 
 .BG {
-    top: 12px;
-    left: 3px;
     position: absolute;
     z-index: -1;
 }
