@@ -309,6 +309,7 @@ th2 {
 .BG {
     position: absolute;
     z-index: -1;
+    left: 0px;
 }
 
 .allergens {
@@ -648,10 +649,6 @@ h1 {
 .shots-menu {
     position: fixed;
     top: 1401px;
-}
-
-.Juices-Menu {
-    background-color: #FFFFFF;	
 }
 
 .ShotsProductImage {
