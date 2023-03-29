@@ -33,8 +33,8 @@ body {
     text-align: left;
     display: block;
     width: 1080px;
-    top: 236pt;
-    position: fixed;
+    top: 64pt;
+    position: relative;
 }
 
 .home-menu-items {
@@ -307,6 +307,9 @@ th2 {
 }
 
 .BG {
+    top: 12px;
+    left: 3px;
+    position: absolute;
     z-index: -1;
 }
 
@@ -446,7 +449,7 @@ th3 {
 
 
 .Classic-Menu {
-    background-image: url(../img/JJ_Classic_BG.jpg);
+    
 }
 
 hc1 {
@@ -469,7 +472,7 @@ hc2 {
 }
 
 .Bowls-Menu {
-    background-image: url(../img/JJ_Bowls_BG.jpg);
+    
 }
 
 #Bowls-Menu-list {
@@ -498,6 +501,7 @@ h1 {
 .ProductName {
     font-family: "Filson Soft Heavy", "Filson Soft Book";
     font-size: 36pt;
+    z-index: 0;
 }
 
 .ProductCal {
@@ -524,7 +528,7 @@ h1 {
 }
 
 .superblends-Menu {
-    background-image: url(../img/JJ_Blends_BG.jpg);
+
 }
 
 .SBcolor {
@@ -567,7 +571,6 @@ h1 {
 }
 
 .Beverages-Menu {
-    background-image: url(../img/JJ_Beverages_BG.jpg);
 }
 
 .Bcolor {
@@ -640,13 +643,13 @@ h1 {
 }
 
 .juice-menu {
-    top: 697px;
+    top: 603px;
     position: fixed;
 }
 
 .shots-menu {
     position: fixed;
-    top: 1466px;
+    top: 1401px;
 }
 
 .Juices-Menu {
@@ -671,7 +674,7 @@ h1 {
 
 .Kids-menu {
     position: fixed;
-    top: 1445px;
+    top: 1333px;
 }
 
 .BiteProductImage {
@@ -705,7 +708,68 @@ h1 {
 .Bowls-slide-text {
     position: relative;
     top: 10px;
-    left: 70px;
+    left: 7px;
     font-size: 20pt;
     z-index: 1;
+}
+
+.Blends-slide {
+    display: inline-block;
+    width: 300px;
+    height: 578px;
+    position: fixed;
+    top: 147px;
+    left: 810px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.Blends-slide-image {
+    width: 623px;
+    left: -160px;
+    top: -65px;
+    position: relative;
+}
+
+.Plant-slide {
+    display: inline-block;
+    width: 300px;
+    height: 578px;
+    position: fixed;
+    top: 414px;
+    left: 870px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.Plant-slide-image {
+    width: 634px;
+    left: -165px;
+    top: -129px;
+    position: relative;
+}
+
+.Kidsheadertext {
+    font-family: "Filson Soft Regular";
+    font-size: 72pt;
+    padding-left: 265px;
+    line-height: 135pt;
+}
+
+.Classic-slide {
+    display: inline-block;
+    width: 300px;
+    height: 816px;
+    position: fixed;
+    top: 523px;
+    left: 794px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.Classic-slide-image {
+    width: 690px;
+    left: -178px;
+    top: -62px;
+    position: relative;
 }
