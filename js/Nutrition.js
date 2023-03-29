@@ -2047,6 +2047,290 @@ function JuicesInfo() {
 	document.getElementById("Juices_OrangeCarrotTwist_S_Zinc").innerHTML="4%";
 	document.getElementById("Juices_OrangeCarrotTwist_S_Caffeine").innerHTML="0mg";
 	
+	
+	//cucumber orange cooler
+	//cucumber orange cooler - Large
+    document.getElementById("Juices_CucumberOrangeCooler_L_TotalCalories").innerHTML="330";
+	document.getElementById("Juices_CucumberOrangeCooler_L_CaloriesFromFat").innerHTML="15";
+	document.getElementById("Juices_CucumberOrangeCooler_L_TotalFat").innerHTML="1.5g";
+	document.getElementById("Juices_CucumberOrangeCooler_L_SatFat").innerHTML="0g";
+	document.getElementById("Juices_CucumberOrangeCooler_L_TransFat").innerHTML="0g";
+	document.getElementById("Juices_CucumberOrangeCooler_L_Cholesterol").innerHTML="0mg";
+	document.getElementById("Juices_CucumberOrangeCooler_L_Sodium").innerHTML="20mg";
+	document.getElementById("Juices_CucumberOrangeCooler_L_TotalCarbohydrate").innerHTML="79g";
+	document.getElementById("Juices_CucumberOrangeCooler_L_DietaryFiber").innerHTML="3g";
+	document.getElementById("Juices_CucumberOrangeCooler_L_Sugars").innerHTML="60g";
+	document.getElementById("Juices_CucumberOrangeCooler_L_Protein").innerHTML="5g";
+	document.getElementById("Juices_CucumberOrangeCooler_L_VitaminA").innerHTML="25%";
+	document.getElementById("Juices_CucumberOrangeCooler_L_VitaminC").innerHTML="400%";
+	document.getElementById("Juices_CucumberOrangeCooler_L_Calcium").innerHTML="10%";
+	document.getElementById("Juices_CucumberOrangeCooler_L_Iron").innerHTML="10%";
+	document.getElementById("Juices_CucumberOrangeCooler_L_VitaminD").innerHTML="0%";
+	document.getElementById("Juices_CucumberOrangeCooler_L_VitaminE").innerHTML="2%";
+	document.getElementById("Juices_CucumberOrangeCooler_L_VitaminB1").innerHTML="35%";
+	document.getElementById("Juices_CucumberOrangeCooler_L_VitaminB2").innerHTML="15%";
+	document.getElementById("Juices_CucumberOrangeCooler_L_Zinc").innerHTML="6%";
+	document.getElementById("Juices_CucumberOrangeCooler_L_Caffeine").innerHTML="0mg";
+	
+	//cucumber orange cooler - Medium
+    document.getElementById("Juices_CucumberOrangeCooler_M_TotalCalories").innerHTML="260";
+	document.getElementById("Juices_CucumberOrangeCooler_M_CaloriesFromFat").innerHTML="10";
+	document.getElementById("Juices_CucumberOrangeCooler_M_TotalFat").innerHTML="1g";
+	document.getElementById("Juices_CucumberOrangeCooler_M_SatFat").innerHTML="0g";
+	document.getElementById("Juices_CucumberOrangeCooler_M_TransFat").innerHTML="0g";
+	document.getElementById("Juices_CucumberOrangeCooler_M_Cholesterol").innerHTML="0mg";
+	document.getElementById("Juices_CucumberOrangeCooler_M_Sodium").innerHTML="15mg";
+	document.getElementById("Juices_CucumberOrangeCooler_M_TotalCarbohydrate").innerHTML="63g";
+	document.getElementById("Juices_CucumberOrangeCooler_M_DietaryFiber").innerHTML="3g";
+	document.getElementById("Juices_CucumberOrangeCooler_M_Sugars").innerHTML="47g";
+	document.getElementById("Juices_CucumberOrangeCooler_M_Protein").innerHTML="4g";
+	document.getElementById("Juices_CucumberOrangeCooler_M_VitaminA").innerHTML="20%";
+	document.getElementById("Juices_CucumberOrangeCooler_M_VitaminC").innerHTML="340%";
+	document.getElementById("Juices_CucumberOrangeCooler_M_Calcium").innerHTML="10%";
+	document.getElementById("Juices_CucumberOrangeCooler_M_Iron").innerHTML="10%";
+	document.getElementById("Juices_CucumberOrangeCooler_M_VitaminD").innerHTML="0%";
+	document.getElementById("Juices_CucumberOrangeCooler_M_VitaminE").innerHTML="2%";
+	document.getElementById("Juices_CucumberOrangeCooler_M_VitaminB1").innerHTML="30%";
+	document.getElementById("Juices_CucumberOrangeCooler_M_VitaminB2").innerHTML="10%";
+	document.getElementById("Juices_CucumberOrangeCooler_M_Zinc").innerHTML="4%";
+	document.getElementById("Juices_CucumberOrangeCooler_M_Caffeine").innerHTML="0mg";
+	
+	//cucumber orange cooler - Small
+    document.getElementById("Juices_CucumberOrangeCooler_S_TotalCalories").innerHTML="190";
+	document.getElementById("Juices_CucumberOrangeCooler_S_CaloriesFromFat").innerHTML="10";
+	document.getElementById("Juices_CucumberOrangeCooler_S_TotalFat").innerHTML="1g";
+	document.getElementById("Juices_CucumberOrangeCooler_S_SatFat").innerHTML="0g";
+	document.getElementById("Juices_CucumberOrangeCooler_S_TransFat").innerHTML="0g";
+	document.getElementById("Juices_CucumberOrangeCooler_S_Cholesterol").innerHTML="0mg";
+	document.getElementById("Juices_CucumberOrangeCooler_S_Sodium").innerHTML="10mg";
+	document.getElementById("Juices_CucumberOrangeCooler_S_TotalCarbohydrate").innerHTML="46g";
+	document.getElementById("Juices_CucumberOrangeCooler_S_DietaryFiber").innerHTML="2g";
+	document.getElementById("Juices_CucumberOrangeCooler_S_Sugars").innerHTML="36g";
+	document.getElementById("Juices_CucumberOrangeCooler_S_Protein").innerHTML="3g";
+	document.getElementById("Juices_CucumberOrangeCooler_S_VitaminA").innerHTML="15%";
+	document.getElementById("Juices_CucumberOrangeCooler_S_VitaminC").innerHTML="230%";
+	document.getElementById("Juices_CucumberOrangeCooler_S_Calcium").innerHTML="6%";
+	document.getElementById("Juices_CucumberOrangeCooler_S_Iron").innerHTML="6%";
+	document.getElementById("Juices_CucumberOrangeCooler_S_VitaminD").innerHTML="0%";
+	document.getElementById("Juices_CucumberOrangeCooler_S_VitaminE").innerHTML="0%";
+	document.getElementById("Juices_CucumberOrangeCooler_S_VitaminB1").innerHTML="20%";
+	document.getElementById("Juices_CucumberOrangeCooler_S_VitaminB2").innerHTML="8%";
+	document.getElementById("Juices_CucumberOrangeCooler_S_Zinc").innerHTML="2%";
+	document.getElementById("Juices_CucumberOrangeCooler_S_Caffeine").innerHTML="0mg";
+	
+	
+	//great greens
+	//great greens - Large
+    document.getElementById("Juices_GreatGreens_L_TotalCalories").innerHTML="230";
+	document.getElementById("Juices_GreatGreens_L_CaloriesFromFat").innerHTML="10";
+	document.getElementById("Juices_GreatGreens_L_TotalFat").innerHTML="1.5g";
+	document.getElementById("Juices_GreatGreens_L_SatFat").innerHTML="0g";
+	document.getElementById("Juices_GreatGreens_L_TransFat").innerHTML="0g";
+	document.getElementById("Juices_GreatGreens_L_Cholesterol").innerHTML="0mg";
+	document.getElementById("Juices_GreatGreens_L_Sodium").innerHTML="120mg";
+	document.getElementById("Juices_GreatGreens_L_TotalCarbohydrate").innerHTML="55g";
+	document.getElementById("Juices_GreatGreens_L_DietaryFiber").innerHTML="6g";
+	document.getElementById("Juices_GreatGreens_L_Sugars").innerHTML="37g";
+	document.getElementById("Juices_GreatGreens_L_Protein").innerHTML="6g";
+	document.getElementById("Juices_GreatGreens_L_VitaminA").innerHTML="230%";
+	document.getElementById("Juices_GreatGreens_L_VitaminC").innerHTML="100%";
+	document.getElementById("Juices_GreatGreens_L_Calcium").innerHTML="20%";
+	document.getElementById("Juices_GreatGreens_L_Iron").innerHTML="25%";
+	document.getElementById("Juices_GreatGreens_L_VitaminD").innerHTML="0%";
+	document.getElementById("Juices_GreatGreens_L_VitaminE").innerHTML="15%";
+	document.getElementById("Juices_GreatGreens_L_VitaminB1").innerHTML="20%";
+	document.getElementById("Juices_GreatGreens_L_VitaminB2").innerHTML="25%";
+	document.getElementById("Juices_GreatGreens_L_Zinc").innerHTML="10%";
+	document.getElementById("Juices_GreatGreens_L_Caffeine").innerHTML="0mg";
+	
+	//great greens - Medium
+    document.getElementById("Juices_GreatGreens_M_TotalCalories").innerHTML="190";
+	document.getElementById("Juices_GreatGreens_M_CaloriesFromFat").innerHTML="10";
+	document.getElementById("Juices_GreatGreens_M_TotalFat").innerHTML="1g";
+	document.getElementById("Juices_GreatGreens_M_SatFat").innerHTML="0g";
+	document.getElementById("Juices_GreatGreens_M_TransFat").innerHTML="0g";
+	document.getElementById("Juices_GreatGreens_M_Cholesterol").innerHTML="0mg";
+	document.getElementById("Juices_GreatGreens_M_Sodium").innerHTML="95mg";
+	document.getElementById("Juices_GreatGreens_M_TotalCarbohydrate").innerHTML="44g";
+	document.getElementById("Juices_GreatGreens_M_DietaryFiber").innerHTML="5g";
+	document.getElementById("Juices_GreatGreens_M_Sugars").innerHTML="30g";
+	document.getElementById("Juices_GreatGreens_M_Protein").innerHTML="5g";
+	document.getElementById("Juices_GreatGreens_M_VitaminA").innerHTML="190%";
+	document.getElementById("Juices_GreatGreens_M_VitaminC").innerHTML="80%";
+	document.getElementById("Juices_GreatGreens_M_Calcium").innerHTML="15%";
+	document.getElementById("Juices_GreatGreens_M_Iron").innerHTML="20%";
+	document.getElementById("Juices_GreatGreens_M_VitaminD").innerHTML="0%";
+	document.getElementById("Juices_GreatGreens_M_VitaminE").innerHTML="10%";
+	document.getElementById("Juices_GreatGreens_M_VitaminB1").innerHTML="15%";
+	document.getElementById("Juices_GreatGreens_M_VitaminB2").innerHTML="20%";
+	document.getElementById("Juices_GreatGreens_M_Zinc").innerHTML="8%";
+	document.getElementById("Juices_GreatGreens_M_Caffeine").innerHTML="0mg";
+	
+	//great greens - Small
+    document.getElementById("Juices_GreatGreens_S_TotalCalories").innerHTML="140";
+	document.getElementById("Juices_GreatGreens_S_CaloriesFromFat").innerHTML="5";
+	document.getElementById("Juices_GreatGreens_S_TotalFat").innerHTML="1g";
+	document.getElementById("Juices_GreatGreens_S_SatFat").innerHTML="0g";
+	document.getElementById("Juices_GreatGreens_S_TransFat").innerHTML="0g";
+	document.getElementById("Juices_GreatGreens_S_Cholesterol").innerHTML="0mg";
+	document.getElementById("Juices_GreatGreens_S_Sodium").innerHTML="70mg";
+	document.getElementById("Juices_GreatGreens_S_TotalCarbohydrate").innerHTML="33g";
+	document.getElementById("Juices_GreatGreens_S_DietaryFiber").innerHTML="3g";
+	document.getElementById("Juices_GreatGreens_S_Sugars").innerHTML="22g";
+	document.getElementById("Juices_GreatGreens_S_Protein").innerHTML="4g";
+	document.getElementById("Juices_GreatGreens_S_VitaminA").innerHTML="140%";
+	document.getElementById("Juices_GreatGreens_S_VitaminC").innerHTML="60%";
+	document.getElementById("Juices_GreatGreens_S_Calcium").innerHTML="15%";
+	document.getElementById("Juices_GreatGreens_S_Iron").innerHTML="15%";
+	document.getElementById("Juices_GreatGreens_S_VitaminD").innerHTML="0%";
+	document.getElementById("Juices_GreatGreens_S_VitaminE").innerHTML="8%";
+	document.getElementById("Juices_GreatGreens_S_VitaminB1").innerHTML="10%";
+	document.getElementById("Juices_GreatGreens_S_VitaminB2").innerHTML="15%";
+	document.getElementById("Juices_GreatGreens_S_Zinc").innerHTML="6%";
+	document.getElementById("Juices_GreatGreens_S_Caffeine").innerHTML="0mg";
+	
+	
+	//orange supreme
+	//orange supreme - Large
+    document.getElementById("Juices_OrangeSupreme_L_TotalCalories").innerHTML="350";
+	document.getElementById("Juices_OrangeSupreme_L_CaloriesFromFat").innerHTML="15";
+	document.getElementById("Juices_OrangeSupreme_L_TotalFat").innerHTML="1.5g";
+	document.getElementById("Juices_OrangeSupreme_L_SatFat").innerHTML="0g";
+	document.getElementById("Juices_OrangeSupreme_L_TransFat").innerHTML="0g";
+	document.getElementById("Juices_OrangeSupreme_L_Cholesterol").innerHTML="0mg";
+	document.getElementById("Juices_OrangeSupreme_L_Sodium").innerHTML="125mg";
+	document.getElementById("Juices_OrangeSupreme_L_TotalCarbohydrate").innerHTML="85g";
+	document.getElementById("Juices_OrangeSupreme_L_DietaryFiber").innerHTML="9g";
+	document.getElementById("Juices_OrangeSupreme_L_Sugars").innerHTML="56g";
+	document.getElementById("Juices_OrangeSupreme_L_Protein").innerHTML="5g";
+	document.getElementById("Juices_OrangeSupreme_L_VitaminA").innerHTML="560%";
+	document.getElementById("Juices_OrangeSupreme_L_VitaminC").innerHTML="240%";
+	document.getElementById("Juices_OrangeSupreme_L_Calcium").innerHTML="10%";
+	document.getElementById("Juices_OrangeSupreme_L_Iron").innerHTML="8%";
+	document.getElementById("Juices_OrangeSupreme_L_VitaminD").innerHTML="0%";
+	document.getElementById("Juices_OrangeSupreme_L_VitaminE").innerHTML="6%";
+	document.getElementById("Juices_OrangeSupreme_L_VitaminB1").innerHTML="25%";
+	document.getElementById("Juices_OrangeSupreme_L_VitaminB2").innerHTML="15%";
+	document.getElementById("Juices_OrangeSupreme_L_Zinc").innerHTML="4%";
+	document.getElementById("Juices_OrangeSupreme_L_Caffeine").innerHTML="0mg";
+	
+	//orange supreme - Medium
+    document.getElementById("Juices_OrangeSupreme_M_TotalCalories").innerHTML="300";
+	document.getElementById("Juices_OrangeSupreme_M_CaloriesFromFat").innerHTML="10";
+	document.getElementById("Juices_OrangeSupreme_M_TotalFat").innerHTML="1g";
+	document.getElementById("Juices_OrangeSupreme_M_SatFat").innerHTML="0g";
+	document.getElementById("Juices_OrangeSupreme_M_TransFat").innerHTML="0g";
+	document.getElementById("Juices_OrangeSupreme_M_Cholesterol").innerHTML="0mg";
+	document.getElementById("Juices_OrangeSupreme_M_Sodium").innerHTML="85mg";
+	document.getElementById("Juices_OrangeSupreme_M_TotalCarbohydrate").innerHTML="74g";
+	document.getElementById("Juices_OrangeSupreme_M_DietaryFiber").innerHTML="7g";
+	document.getElementById("Juices_OrangeSupreme_M_Sugars").innerHTML="49g";
+	document.getElementById("Juices_OrangeSupreme_M_Protein").innerHTML="4g";
+	document.getElementById("Juices_OrangeSupreme_M_VitaminA").innerHTML="370%";
+	document.getElementById("Juices_OrangeSupreme_M_VitaminC").innerHTML="190%";
+	document.getElementById("Juices_OrangeSupreme_M_Calcium").innerHTML="8%";
+	document.getElementById("Juices_OrangeSupreme_M_Iron").innerHTML="6%";
+	document.getElementById("Juices_OrangeSupreme_M_VitaminD").innerHTML="0%";
+	document.getElementById("Juices_OrangeSupreme_M_VitaminE").innerHTML="4%";
+	document.getElementById("Juices_OrangeSupreme_M_VitaminB1").innerHTML="20%";
+	document.getElementById("Juices_OrangeSupreme_M_VitaminB2").innerHTML="15%";
+	document.getElementById("Juices_OrangeSupreme_M_Zinc").innerHTML="4%";
+	document.getElementById("Juices_OrangeSupreme_M_Caffeine").innerHTML="0mg";
+	
+	//orange supreme - Small
+    document.getElementById("Juices_OrangeSupreme_S_TotalCalories").innerHTML="240";
+	document.getElementById("Juices_OrangeSupreme_S_CaloriesFromFat").innerHTML="10";
+	document.getElementById("Juices_OrangeSupreme_S_TotalFat").innerHTML="1g";
+	document.getElementById("Juices_OrangeSupreme_S_SatFat").innerHTML="0g";
+	document.getElementById("Juices_OrangeSupreme_S_TransFat").innerHTML="0g";
+	document.getElementById("Juices_OrangeSupreme_S_Cholesterol").innerHTML="0mg";
+	document.getElementById("Juices_OrangeSupreme_S_Sodium").innerHTML="80mg";
+	document.getElementById("Juices_OrangeSupreme_S_TotalCarbohydrate").innerHTML="59g";
+	document.getElementById("Juices_OrangeSupreme_S_DietaryFiber").innerHTML="6g";
+	document.getElementById("Juices_OrangeSupreme_S_Sugars").innerHTML="39g";
+	document.getElementById("Juices_OrangeSupreme_S_Protein").innerHTML="3g";
+	document.getElementById("Juices_OrangeSupreme_S_VitaminA").innerHTML="370%";
+	document.getElementById("Juices_OrangeSupreme_S_VitaminC").innerHTML="180%";
+	document.getElementById("Juices_OrangeSupreme_S_Calcium").innerHTML="6%";
+	document.getElementById("Juices_OrangeSupreme_S_Iron").innerHTML="6%";
+	document.getElementById("Juices_OrangeSupreme_S_VitaminD").innerHTML="0%";
+	document.getElementById("Juices_OrangeSupreme_S_VitaminE").innerHTML="4%";
+	document.getElementById("Juices_OrangeSupreme_S_VitaminB1").innerHTML="20%";
+	document.getElementById("Juices_OrangeSupreme_S_VitaminB2").innerHTML="10%";
+	document.getElementById("Juices_OrangeSupreme_S_Zinc").innerHTML="4%";
+	document.getElementById("Juices_OrangeSupreme_S_Caffeine").innerHTML="0mg";
+	
+	
+	//veggie vitality
+	//veggie vitality - Large
+    document.getElementById("Juices_VeggieVitality_L_TotalCalories").innerHTML="280";
+	document.getElementById("Juices_VeggieVitality_L_CaloriesFromFat").innerHTML="15";
+	document.getElementById("Juices_VeggieVitality_L_TotalFat").innerHTML="1.5g";
+	document.getElementById("Juices_VeggieVitality_L_SatFat").innerHTML="0g";
+	document.getElementById("Juices_VeggieVitality_L_TransFat").innerHTML="0g";
+	document.getElementById("Juices_VeggieVitality_L_Cholesterol").innerHTML="0mg";
+	document.getElementById("Juices_VeggieVitality_L_Sodium").innerHTML="300mg";
+	document.getElementById("Juices_VeggieVitality_L_TotalCarbohydrate").innerHTML="65g";
+	document.getElementById("Juices_VeggieVitality_L_DietaryFiber").innerHTML="11g";
+	document.getElementById("Juices_VeggieVitality_L_Sugars").innerHTML="43g";
+	document.getElementById("Juices_VeggieVitality_L_Protein").innerHTML="6g";
+	document.getElementById("Juices_VeggieVitality_L_VitaminA").innerHTML="1130%";
+	document.getElementById("Juices_VeggieVitality_L_VitaminC").innerHTML="90%";
+	document.getElementById("Juices_VeggieVitality_L_Calcium").innerHTML="25%";
+	document.getElementById("Juices_VeggieVitality_L_Iron").innerHTML="25%";
+	document.getElementById("Juices_VeggieVitality_L_VitaminD").innerHTML="0%";
+	document.getElementById("Juices_VeggieVitality_L_VitaminE").innerHTML="20%";
+	document.getElementById("Juices_VeggieVitality_L_VitaminB1").innerHTML="25%";
+	document.getElementById("Juices_VeggieVitality_L_VitaminB2").innerHTML="25%";
+	document.getElementById("Juices_VeggieVitality_L_Zinc").innerHTML="10%";
+	document.getElementById("Juices_VeggieVitality_L_Caffeine").innerHTML="0mg";
+	
+	//veggie vitality - Medium
+    document.getElementById("Juices_VeggieVitality_M_TotalCalories").innerHTML="230";
+	document.getElementById("Juices_VeggieVitality_M_CaloriesFromFat").innerHTML="10";
+	document.getElementById("Juices_VeggieVitality_M_TotalFat").innerHTML="1g";
+	document.getElementById("Juices_VeggieVitality_M_SatFat").innerHTML="0g";
+	document.getElementById("Juices_VeggieVitality_M_TransFat").innerHTML="0g";
+	document.getElementById("Juices_VeggieVitality_M_Cholesterol").innerHTML="0mg";
+	document.getElementById("Juices_VeggieVitality_M_Sodium").innerHTML="240mg";
+	document.getElementById("Juices_VeggieVitality_M_TotalCarbohydrate").innerHTML="52g";
+	document.getElementById("Juices_VeggieVitality_M_DietaryFiber").innerHTML="9g";
+	document.getElementById("Juices_VeggieVitality_M_Sugars").innerHTML="35g";
+	document.getElementById("Juices_VeggieVitality_M_Protein").innerHTML="5g";
+	document.getElementById("Juices_VeggieVitality_M_VitaminA").innerHTML="910%";
+	document.getElementById("Juices_VeggieVitality_M_VitaminC").innerHTML="70%";
+	document.getElementById("Juices_VeggieVitality_M_Calcium").innerHTML="20%";
+	document.getElementById("Juices_VeggieVitality_M_Iron").innerHTML="20%";
+	document.getElementById("Juices_VeggieVitality_M_VitaminD").innerHTML="0%";
+	document.getElementById("Juices_VeggieVitality_M_VitaminE").innerHTML="15%";
+	document.getElementById("Juices_VeggieVitality_M_VitaminB1").innerHTML="20%";
+	document.getElementById("Juices_VeggieVitality_M_VitaminB2").innerHTML="20%";
+	document.getElementById("Juices_VeggieVitality_M_Zinc").innerHTML="8%";
+	document.getElementById("Juices_VeggieVitality_M_Caffeine").innerHTML="0mg";
+	
+	//veggie vitality - Small
+    document.getElementById("Juices_VeggieVitality_S_TotalCalories").innerHTML="190";
+	document.getElementById("Juices_VeggieVitality_S_CaloriesFromFat").innerHTML="10";
+	document.getElementById("Juices_VeggieVitality_S_TotalFat").innerHTML="1g";
+	document.getElementById("Juices_VeggieVitality_S_SatFat").innerHTML="0g";
+	document.getElementById("Juices_VeggieVitality_S_TransFat").innerHTML="0g";
+	document.getElementById("Juices_VeggieVitality_S_Cholesterol").innerHTML="0mg";
+	document.getElementById("Juices_VeggieVitality_S_Sodium").innerHTML="220mg";
+	document.getElementById("Juices_VeggieVitality_S_TotalCarbohydrate").innerHTML="44g";
+	document.getElementById("Juices_VeggieVitality_S_DietaryFiber").innerHTML="8g";
+	document.getElementById("Juices_VeggieVitality_S_Sugars").innerHTML="29g";
+	document.getElementById("Juices_VeggieVitality_S_Protein").innerHTML="4g";
+	document.getElementById("Juices_VeggieVitality_S_VitaminA").innerHTML="860%";
+	document.getElementById("Juices_VeggieVitality_S_VitaminC").innerHTML="60%";
+	document.getElementById("Juices_VeggieVitality_S_Calcium").innerHTML="15%";
+	document.getElementById("Juices_VeggieVitality_S_Iron").innerHTML="15%";
+	document.getElementById("Juices_VeggieVitality_S_VitaminD").innerHTML="0%";
+	document.getElementById("Juices_VeggieVitality_S_VitaminE").innerHTML="15%";
+	document.getElementById("Juices_VeggieVitality_S_VitaminB1").innerHTML="15%";
+	document.getElementById("Juices_VeggieVitality_S_VitaminB2").innerHTML="20%";
+	document.getElementById("Juices_VeggieVitality_S_Zinc").innerHTML="6%";
+	document.getElementById("Juices_VeggieVitality_S_Caffeine").innerHTML="0mg";
+	
 }
 
 

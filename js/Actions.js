@@ -1,7 +1,7 @@
 function home2bowls() {
 	
-	$("#Home").addClass("slide-out");
 	$("#Home").removeClass("slide-in");
+	$("#Home").addClass("slide-out");
 	$("#Bowls-Menu").addClass("slide-in");
 	$("#Bowls-Menu").removeClass("slide-out");
 	
@@ -623,6 +623,10 @@ function back2drinks() {
 	$("#PurelyOrange_info").removeClass("slide-in");
 	$("#PurelyCarrot_info").removeClass("slide-in");
 	$("#OrangeCarrotTwist_info").removeClass("slide-in");
+	$("#CucumberOrangeCooler_info").removeClass("slide-in");
+	$("#GreatGreens_info").removeClass("slide-in");
+	$("#OrangeSupreme_info").removeClass("slide-in");
+	$("#VeggieVitality_info").removeClass("slide-in");
 	$("#LemonGingerShot_info").removeClass("slide-in");
 	$("#OrangeGingerShot_info").removeClass("slide-in");
 	$("#WheatgrassShot_info").removeClass("slide-in");
@@ -632,6 +636,10 @@ function back2drinks() {
 	$("#PurelyOrange_info").addClass("slide-out");
 	$("#PurelyCarrot_info").addClass("slide-out");
 	$("#OrangeCarrotTwist_info").addClass("slide-out");
+	$("#CucumberOrangeCooler_info").addClass("slide-out");
+	$("#GreatGreens_info").addClass("slide-out");
+	$("#OrangeSupreme_info").addClass("slide-out");
+	$("#VeggieVitality_info").addClass("slide-out");
 	$("#LemonGingerShot_info").addClass("slide-out");
 	$("#OrangeGingerShot_info").addClass("slide-out");
 	$("#WheatgrassShot_info").addClass("slide-out");
@@ -678,29 +686,29 @@ function Beverage2J3() {
 function Beverage2J4() {
 	$("#juices-Menu").addClass("slide-out");
 	$("#juices-Menu").removeClass("slide-in");
-	$("#PurelyOrange_info").addClass("slide-in");
-	$("#PurelyOrange_info").removeClass("slide-out");
+	$("#CucumberOrangeCooler_info").addClass("slide-in");
+	$("#CucumberOrangeCooler_info").removeClass("slide-out");
 }
 
 function Beverage2J5() {
 	$("#juices-Menu").addClass("slide-out");
 	$("#juices-Menu").removeClass("slide-in");
-	$("#PurelyOrange_info").addClass("slide-in");
-	$("#PurelyOrange_info").removeClass("slide-out");
+	$("#GreatGreens_info").addClass("slide-in");
+	$("#GreatGreens_info").removeClass("slide-out");
 }
 
 function Beverage2J6() {
 	$("#juices-Menu").addClass("slide-out");
 	$("#juices-Menu").removeClass("slide-in");
-	$("#PurelyOrange_info").addClass("slide-in");
-	$("#PurelyOrange_info").removeClass("slide-out");
+	$("#OrangeSupreme_info").addClass("slide-in");
+	$("#OrangeSupreme_info").removeClass("slide-out");
 }
 
 function Beverage2J7() {
 	$("#juices-Menu").addClass("slide-out");
 	$("#juices-Menu").removeClass("slide-in");
-	$("#PurelyOrange_info").addClass("slide-in");
-	$("#PurelyOrange_info").removeClass("slide-out");
+	$("#VeggieVitality_info").addClass("slide-in");
+	$("#VeggieVitality_info").removeClass("slide-out");
 }
 
 
@@ -725,3 +733,24 @@ function Beverage2S3() {
 	$("#WheatgrassShot_info").addClass("slide-in");
 	$("#WheatgrassShot_info").removeClass("slide-out");
 }
+
+
+let time = new Date().getTime();
+const setActivityTime = (e) => {
+  time = new Date().getTime();
+}
+document.body.addEventListener("mousemove", setActivityTime);
+document.body.addEventListener("keypress", setActivityTime);
+const refresh = () => {
+  if (new Date().getTime() - time >= 30000) {
+	  info2bowls()
+	  back2blends()
+	  back2plants()
+	  back2classic()
+	  back2drinks()
+   back2home();
+  } else {
+    setTimeout(refresh, 1000);
+  }
+}
+setTimeout(refresh, 1000);
