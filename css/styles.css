@@ -1,10 +1,20 @@
 @font-face {
     font-family: "Charleston-Regular";
-    src: url(../Fonts/Charleston-Regular.otf);
+    src: url(./Fonts/Charleston-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "FilsonSoft-Black";
+    src: url(./Fonts/FilsonSoft-Black.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "FilsonSoft-Regular";
+    src: url(./Fonts/FilsonSoft-Regular.ttf) format('truetype');
 }
 
 body {
-    font-family: "Filson Soft Regular";
+    font-family: "FilsonSoft-Regular";
     background-repeat: no-repeat;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -41,12 +51,13 @@ body {
     width: 100%;
     text-align: left;
     margin-bottom: 34px;
-    padding-left: 23px;
-    padding-top: 50px;
+    padding-left: 30px;
+    padding-top: 45px;
     padding-bottom: 45px;
-    font-size: 75pt;
+    font-size: 100px;
     display: block;
     background-color: #FFFFFF;
+    line-height: 120px;
 }
 
 
@@ -136,7 +147,6 @@ body {
     margin-left: auto;
     background-color: #FFFFFF;
     margin-right: auto;
-    text-transform: uppercase;
     }
 
 
@@ -297,7 +307,7 @@ th2 {
 }
 
 .bold {
-    font-weight: bolder;	
+    font-weight: bold;
 }
 
 .Info {
@@ -364,7 +374,7 @@ th2 {
     width: 1080px;
     font-size: 60pt;
     margin-top: 25px;
-    font-family: "Filson Soft Heavy", "Filson Soft Book";
+    font-family: "FilsonSoft-Black";
     display: inline-block;
     height: 110px;
     vertical-align: middle;
@@ -452,7 +462,7 @@ th3 {
 }
 
 hc1 {
-    font-family: "Filson Soft Heavy", "Filson Soft Book";
+    font-family: "FilsonSoft-Black";
     font-size: 37pt;
     line-height: 0pt;
 }
@@ -482,8 +492,7 @@ hc2 {
     float: left;
     display: inline-block;
     width: 100%;
-    height: 100pt;
-    margin-bottom: 25px;
+    padding-bottom: 25px;
 }
 
 h1 {
@@ -498,9 +507,8 @@ h1 {
 }
 
 .ProductName {
-    font-family: "Filson Soft Heavy", "Filson Soft Book";
-    font-size: 36pt;
-    z-index: 0;
+    font-family: "FilsonSoft-Black";
+    font-size: 35pt;
 }
 
 .ProductCal {
@@ -516,14 +524,14 @@ h1 {
 }
 
 .Bold {
-    font-family: "Filson Soft Heavy", "Filson Soft Book";
+    font-family: "FilsonSoft-Black";
     padding-right: 5px;
 }
 
 .ProductInfo {
     font-size: 15pt;
     vertical-align: 0px;
-    line-height: 20pt;
+    line-height: 10pt;
 }
 
 .superblends-Menu {
@@ -535,10 +543,9 @@ h1 {
 }
 
 .headertext {
-    font-family: "Filson Soft Regular";
-    font-size: 72pt;
+    font-family: "FilsonSoft-Regular";
+    font-size: 70pt;
     padding-left: 40px;
-    line-height: 135pt;
 }
 
 .sub-headertext {
@@ -551,13 +558,13 @@ h1 {
 }
 
 .ProductName2 {
-    font-family: "Filson Soft Heavy", "Filson Soft Book";
+    font-family: "FilsonSoft-Black";
     font-size: 16pt;
     text-transform: uppercase;
 }
 
 .ProductNamesub {
-    font-family: "Filson Soft Heavy", "Filson Soft Book";
+    font-family: "FilsonSoft-Black";
     font-size: 23pt;
 }
 
@@ -600,7 +607,7 @@ h1 {
 }
 
 .classicheadertext {
-    font-family: "Filson Soft Regular";
+    font-family: "FilsonSoft-Regular";
     font-size: 170pt;
     top: 130px;
     position: relative;
@@ -626,12 +633,12 @@ h1 {
 }
 
 .MenuItem2 {
-    width: 411px;
-    margin-left: 34pt;
-    margin-top: 10pt;
+    width: 430px;
+    margin-left: 20pt;
+    margin-top: 15pt;
     display: inline-block;
     vertical-align: top;
-    line-height: 35px;
+    line-height: 40px;
 }
 
 .2rows {
@@ -642,7 +649,7 @@ h1 {
 }
 
 .juice-menu {
-    top: 603px;
+    top: 610px;
     position: fixed;
 }
 
@@ -664,7 +671,7 @@ h1 {
 
 .bites-menu {
     position: fixed;
-    top: 1100px;
+    top: 1060px;
 }
 
 .Kids-menu {
@@ -714,7 +721,7 @@ h1 {
     height: 578px;
     position: fixed;
     top: 147px;
-    left: 810px;
+    left: 858px;
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -745,7 +752,7 @@ h1 {
 }
 
 .Kidsheadertext {
-    font-family: "Filson Soft Regular";
+    font-family: "FilsonSoft-Regular";
     font-size: 72pt;
     padding-left: 265px;
     line-height: 135pt;
@@ -767,4 +774,31 @@ h1 {
     left: -178px;
     top: -62px;
     position: relative;
+}
+
+.headerimage {
+    margin-top: 115px;
+    margin-left: 30px;
+}
+
+.MenuItemName {
+	font-family: "FilsonSoft-Black";
+    font-size: 37pt;
+    line-height: 0pt;
+}
+
+.MenuItemInfo {
+	font-size: 15pt;
+}
+
+.MenuItemAllergy {
+    font-size: 15pt;
+    text-transform: uppercase;
+    color: #878787;
+}
+
+.KidsHeader {
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
