@@ -1,8 +1,6 @@
-$(window).load(function() {
-	
-	
-function BowlsInfo() {
-	
+
+	function BowlsInfo() {
+	//bowls
 	//Acai Primo
     document.getElementById("Bowl_AcaiPrimo_TotalCalories").innerHTML="520";
 	document.getElementById("Bowl_AcaiPrimo_CaloriesFromFat").innerHTML="100";
@@ -97,11 +95,9 @@ function BowlsInfo() {
 	document.getElementById("Bowl_IslandPitaya_VitaminB2").innerHTML="10%";
 	document.getElementById("Bowl_IslandPitaya_Zinc").innerHTML="6%";
 	document.getElementById("Bowl_IslandPitaya_Caffeine").innerHTML="0mg";	
-	
-};
+	};
 
-function BlendsInfo() {
-	
+	function BlendsInfo() {
 	//super blends
 	
 	
@@ -458,11 +454,9 @@ function BlendsInfo() {
 	document.getElementById("SuperBlends_PBBananaProtein_S_VitaminB2").innerHTML="4%";
 	document.getElementById("SuperBlends_PBBananaProtein_S_Zinc").innerHTML="0%";
 	document.getElementById("SuperBlends_PBBananaProtein_S_Caffeine").innerHTML="0mg";
-	
-}
+	};
 
-function PlantbasedInfo() {
-	
+	function PlantbasedInfo() {
 	//Plant-based
 	
 	
@@ -1032,11 +1026,9 @@ function PlantbasedInfo() {
 	document.getElementById("PlantBased_SmoothTalkinMango_S_VitaminB2").innerHTML="45%";
 	document.getElementById("PlantBased_SmoothTalkinMango_S_Zinc").innerHTML="0%";
 	document.getElementById("PlantBased_SmoothTalkinMango_S_Caffeine").innerHTML="0mg";
-	
-}
+	};
 
-function ClassicInfo() {
-	
+	function ClassicInfo() {
 	//Classic
 	
 	
@@ -1677,12 +1669,82 @@ function ClassicInfo() {
 	document.getElementById("Classic_PeanutButterMood_S_VitaminB2").innerHTML="2%";
 	document.getElementById("Classic_PeanutButterMood_S_Zinc").innerHTML="0%";
 	document.getElementById("Classic_PeanutButterMood_S_Caffeine").innerHTML="0%";
-	
-}
 
 
-function BeveragesInfo() {
+	//PB Chocolate Love
+	//PB Chocolate Love - Large
+    document.getElementById("Classic_PBChocolateLove_L_TotalCalories").innerHTML="940";
+	document.getElementById("Classic_PBChocolateLove_L_CaloriesFromFat").innerHTML="260";
+	document.getElementById("Classic_PBChocolateLove_L_TotalFat").innerHTML="29g";
+	document.getElementById("Classic_PBChocolateLove_L_SatFat").innerHTML="6g";
+	document.getElementById("Classic_PBChocolateLove_L_TransFat").innerHTML="0g";
+	document.getElementById("Classic_PBChocolateLove_L_Cholesterol").innerHTML="10mg";
+	document.getElementById("Classic_PBChocolateLove_L_Sodium").innerHTML="420mg";
+	document.getElementById("Classic_PBChocolateLove_L_TotalCarbohydrate").innerHTML="146g";
+	document.getElementById("Classic_PBChocolateLove_L_DietaryFiber").innerHTML="7g";
+	document.getElementById("Classic_PBChocolateLove_L_Sugars").innerHTML="124g";
+	document.getElementById("Classic_PBChocolateLove_L_Protein").innerHTML="31g";
+	document.getElementById("Classic_PBChocolateLove_L_VitaminA").innerHTML="6%";
+	document.getElementById("Classic_PBChocolateLove_L_VitaminC").innerHTML="8%";
+	document.getElementById("Classic_PBChocolateLove_L_Calcium").innerHTML="50%";
+	document.getElementById("Classic_PBChocolateLove_L_Iron").innerHTML="15%";
+	document.getElementById("Classic_PBChocolateLove_L_VitaminD").innerHTML="0%";
+	document.getElementById("Classic_PBChocolateLove_L_VitaminE").innerHTML="20%";
+	document.getElementById("Classic_PBChocolateLove_L_VitaminB1").innerHTML="2%";
+	document.getElementById("Classic_PBChocolateLove_L_VitaminB2").innerHTML="2%";
+	document.getElementById("Classic_PBChocolateLove_L_Zinc").innerHTML="0%";
+	document.getElementById("Classic_PBChocolateLove_L_Caffeine").innerHTML="0%";
 	
+	//PB Chocolate Love - Medium
+    document.getElementById("Classic_PBChocolateLove_M_TotalCalories").innerHTML="730";
+	document.getElementById("Classic_PBChocolateLove_M_CaloriesFromFat").innerHTML="180";
+	document.getElementById("Classic_PBChocolateLove_M_TotalFat").innerHTML="20g";
+	document.getElementById("Classic_PBChocolateLove_M_SatFat").innerHTML="4.5g";
+	document.getElementById("Classic_PBChocolateLove_M_TransFat").innerHTML="0g";
+	document.getElementById("Classic_PBChocolateLove_M_Cholesterol").innerHTML="10mg";
+	document.getElementById("Classic_PBChocolateLove_M_Sodium").innerHTML="330mg";
+	document.getElementById("Classic_PBChocolateLove_M_TotalCarbohydrate").innerHTML="120g";
+	document.getElementById("Classic_PBChocolateLove_M_DietaryFiber").innerHTML="5g";
+	document.getElementById("Classic_PBChocolateLove_M_Sugars").innerHTML="103g";
+	document.getElementById("Classic_PBChocolateLove_M_Protein").innerHTML="23g";
+	document.getElementById("Classic_PBChocolateLove_M_VitaminA").innerHTML="6%";
+	document.getElementById("Classic_PBChocolateLove_M_VitaminC").innerHTML="8%";
+	document.getElementById("Classic_PBChocolateLove_M_Calcium").innerHTML="45%";
+	document.getElementById("Classic_PBChocolateLove_M_Iron").innerHTML="15%";
+	document.getElementById("Classic_PBChocolateLove_M_VitaminD").innerHTML="0%";
+	document.getElementById("Classic_PBChocolateLove_M_VitaminE").innerHTML="15%";
+	document.getElementById("Classic_PBChocolateLove_M_VitaminB1").innerHTML="0%";
+	document.getElementById("Classic_PBChocolateLove_M_VitaminB2").innerHTML="2%";
+	document.getElementById("Classic_PBChocolateLove_M_Zinc").innerHTML="0%";
+	document.getElementById("Classic_PBChocolateLove_M_Caffeine").innerHTML="0%";
+	
+	//PB Chocolate Love - Small
+    document.getElementById("Classic_PBChocolateLove_S_TotalCalories").innerHTML="450";
+	document.getElementById("Classic_PBChocolateLove_S_CaloriesFromFat").innerHTML="90";
+	document.getElementById("Classic_PBChocolateLove_S_TotalFat").innerHTML="10g";
+	document.getElementById("Classic_PBChocolateLove_S_SatFat").innerHTML="2.5g";
+	document.getElementById("Classic_PBChocolateLove_S_TransFat").innerHTML="0g";
+	document.getElementById("Classic_PBChocolateLove_S_Cholesterol").innerHTML="5mg";
+	document.getElementById("Classic_PBChocolateLove_S_Sodium").innerHTML="200mg";
+	document.getElementById("Classic_PBChocolateLove_S_TotalCarbohydrate").innerHTML="77g";
+	document.getElementById("Classic_PBChocolateLove_S_DietaryFiber").innerHTML="3g";
+	document.getElementById("Classic_PBChocolateLove_S_Sugars").innerHTML="67g";
+	document.getElementById("Classic_PBChocolateLove_S_Protein").innerHTML="14g";
+	document.getElementById("Classic_PBChocolateLove_S_VitaminA").innerHTML="2%";
+	document.getElementById("Classic_PBChocolateLove_S_VitaminC").innerHTML="4%";
+	document.getElementById("Classic_PBChocolateLove_S_Calcium").innerHTML="25%";
+	document.getElementById("Classic_PBChocolateLove_S_Iron").innerHTML="8%";
+	document.getElementById("Classic_PBChocolateLove_S_VitaminD").innerHTML="0%";
+	document.getElementById("Classic_PBChocolateLove_S_VitaminE").innerHTML="6%";
+	document.getElementById("Classic_PBChocolateLove_S_VitaminB1").innerHTML="0%";
+	document.getElementById("Classic_PBChocolateLove_S_VitaminB2").innerHTML="2%";
+	document.getElementById("Classic_PBChocolateLove_S_Zinc").innerHTML="0%";
+	document.getElementById("Classic_PBChocolateLove_S_Caffeine").innerHTML="0%";
+	
+
+	};
+
+	function BeveragesInfo() {
 	//iced beverages
 	
 	
@@ -1782,56 +1844,53 @@ function BeveragesInfo() {
 	document.getElementById("IcedBeverages_BoldNColdBrew_L_Caffeine").innerHTML="295mg";
 	
 	//Bold 'n Cold Brew - Medium
-    document.getElementById("Classic_BoldNColdBrew_M_TotalCalories").innerHTML="140";
-	document.getElementById("Classic_BoldNColdBrew_M_CaloriesFromFat").innerHTML="60";
-	document.getElementById("Classic_BoldNColdBrew_M_TotalFat").innerHTML="7g";
-	document.getElementById("Classic_BoldNColdBrew_M_SatFat").innerHTML="6g";
-	document.getElementById("Classic_BoldNColdBrew_M_TransFat").innerHTML="0g";
-	document.getElementById("Classic_BoldNColdBrew_M_Cholesterol").innerHTML="0mg";
-	document.getElementById("Classic_BoldNColdBrew_M_Sodium").innerHTML="20mg";
-	document.getElementById("Classic_BoldNColdBrew_M_TotalCarbohydrate").innerHTML="23g";
-	document.getElementById("Classic_BoldNColdBrew_M_DietaryFiber").innerHTML="0g";
-	document.getElementById("Classic_BoldNColdBrew_M_Sugars").innerHTML="12g";
-	document.getElementById("Classic_BoldNColdBrew_M_Protein").innerHTML="0g";
-	document.getElementById("Classic_BoldNColdBrew_M_VitaminA").innerHTML="4%";
-	document.getElementById("Classic_BoldNColdBrew_M_VitaminC").innerHTML="0%";
-	document.getElementById("Classic_BoldNColdBrew_M_Calcium").innerHTML="4%";
-	document.getElementById("Classic_BoldNColdBrew_M_Iron").innerHTML="0%";
-	document.getElementById("Classic_BoldNColdBrew_M_VitaminD").innerHTML="0%";
-	document.getElementById("Classic_BoldNColdBrew_M_VitaminE").innerHTML="110%";
-	document.getElementById("Classic_BoldNColdBrew_M_VitaminB1").innerHTML="0%";
-	document.getElementById("Classic_BoldNColdBrew_M_VitaminB2").innerHTML="2%";
-	document.getElementById("Classic_BoldNColdBrew_M_Zinc").innerHTML="0%";
-	document.getElementById("Classic_BoldNColdBrew_M_Caffeine").innerHTML="211mg";
+    document.getElementById("IcedBeverages_BoldNColdBrew_M_TotalCalories").innerHTML="140";
+	document.getElementById("IcedBeverages_BoldNColdBrew_M_CaloriesFromFat").innerHTML="60";
+	document.getElementById("IcedBeverages_BoldNColdBrew_M_TotalFat").innerHTML="7g";
+	document.getElementById("IcedBeverages_BoldNColdBrew_M_SatFat").innerHTML="6g";
+	document.getElementById("IcedBeverages_BoldNColdBrew_M_TransFat").innerHTML="0g";
+	document.getElementById("IcedBeverages_BoldNColdBrew_M_Cholesterol").innerHTML="0mg";
+	document.getElementById("IcedBeverages_BoldNColdBrew_M_Sodium").innerHTML="20mg";
+	document.getElementById("IcedBeverages_BoldNColdBrew_M_TotalCarbohydrate").innerHTML="23g";
+	document.getElementById("IcedBeverages_BoldNColdBrew_M_DietaryFiber").innerHTML="0g";
+	document.getElementById("IcedBeverages_BoldNColdBrew_M_Sugars").innerHTML="12g";
+	document.getElementById("IcedBeverages_BoldNColdBrew_M_Protein").innerHTML="0g";
+	document.getElementById("IcedBeverages_BoldNColdBrew_M_VitaminA").innerHTML="4%";
+	document.getElementById("IcedBeverages_BoldNColdBrew_M_VitaminC").innerHTML="0%";
+	document.getElementById("IcedBeverages_BoldNColdBrew_M_Calcium").innerHTML="4%";
+	document.getElementById("IcedBeverages_BoldNColdBrew_M_Iron").innerHTML="0%";
+	document.getElementById("IcedBeverages_BoldNColdBrew_M_VitaminD").innerHTML="0%";
+	document.getElementById("IcedBeverages_BoldNColdBrew_M_VitaminE").innerHTML="110%";
+	document.getElementById("IcedBeverages_BoldNColdBrew_M_VitaminB1").innerHTML="0%";
+	document.getElementById("IcedBeverages_BoldNColdBrew_M_VitaminB2").innerHTML="2%";
+	document.getElementById("IcedBeverages_BoldNColdBrew_M_Zinc").innerHTML="0%";
+	document.getElementById("IcedBeverages_BoldNColdBrew_M_Caffeine").innerHTML="211mg";
 	
 	//Bold 'n Cold Brew - Small
-    document.getElementById("Classic_BoldNColdBrew_S_TotalCalories").innerHTML="140";
-	document.getElementById("Classic_BoldNColdBrew_S_CaloriesFromFat").innerHTML="60";
-	document.getElementById("Classic_BoldNColdBrew_S_TotalFat").innerHTML="7g";
-	document.getElementById("Classic_BoldNColdBrew_S_SatFat").innerHTML="6g";
-	document.getElementById("Classic_BoldNColdBrew_S_TransFat").innerHTML="0g";
-	document.getElementById("Classic_BoldNColdBrew_S_Cholesterol").innerHTML="0mg";
-	document.getElementById("Classic_BoldNColdBrew_S_Sodium").innerHTML="15mg";
-	document.getElementById("Classic_BoldNColdBrew_S_TotalCarbohydrate").innerHTML="21g";
-	document.getElementById("Classic_BoldNColdBrew_S_DietaryFiber").innerHTML="0g";
-	document.getElementById("Classic_BoldNColdBrew_S_Sugars").innerHTML="12g";
-	document.getElementById("Classic_BoldNColdBrew_S_Protein").innerHTML="0g";
-	document.getElementById("Classic_BoldNColdBrew_S_VitaminA").innerHTML="4%";
-	document.getElementById("Classic_BoldNColdBrew_S_VitaminC").innerHTML="0%";
-	document.getElementById("Classic_BoldNColdBrew_S_Calcium").innerHTML="4%";
-	document.getElementById("Classic_BoldNColdBrew_S_Iron").innerHTML="0%";
-	document.getElementById("Classic_BoldNColdBrew_S_VitaminD").innerHTML="0%";
-	document.getElementById("Classic_BoldNColdBrew_S_VitaminE").innerHTML="110%";
-	document.getElementById("Classic_BoldNColdBrew_S_VitaminB1").innerHTML="0%";
-	document.getElementById("Classic_BoldNColdBrew_S_VitaminB2").innerHTML="2%";
-	document.getElementById("Classic_BoldNColdBrew_S_Zinc").innerHTML="0%";
-	document.getElementById("Classic_BoldNColdBrew_S_Caffeine").innerHTML="216mg";
-	
-}
+    document.getElementById("IcedBeverages_BoldNColdBrew_S_TotalCalories").innerHTML="140";
+	document.getElementById("IcedBeverages_BoldNColdBrew_S_CaloriesFromFat").innerHTML="60";
+	document.getElementById("IcedBeverages_BoldNColdBrew_S_TotalFat").innerHTML="7g";
+	document.getElementById("IcedBeverages_BoldNColdBrew_S_SatFat").innerHTML="6g";
+	document.getElementById("IcedBeverages_BoldNColdBrew_S_TransFat").innerHTML="0g";
+	document.getElementById("IcedBeverages_BoldNColdBrew_S_Cholesterol").innerHTML="0mg";
+	document.getElementById("IcedBeverages_BoldNColdBrew_S_Sodium").innerHTML="15mg";
+	document.getElementById("IcedBeverages_BoldNColdBrew_S_TotalCarbohydrate").innerHTML="21g";
+	document.getElementById("IcedBeverages_BoldNColdBrew_S_DietaryFiber").innerHTML="0g";
+	document.getElementById("IcedBeverages_BoldNColdBrew_S_Sugars").innerHTML="12g";
+	document.getElementById("IcedBeverages_BoldNColdBrew_S_Protein").innerHTML="0g";
+	document.getElementById("IcedBeverages_BoldNColdBrew_S_VitaminA").innerHTML="4%";
+	document.getElementById("IcedBeverages_BoldNColdBrew_S_VitaminC").innerHTML="0%";
+	document.getElementById("IcedBeverages_BoldNColdBrew_S_Calcium").innerHTML="4%";
+	document.getElementById("IcedBeverages_BoldNColdBrew_S_Iron").innerHTML="0%";
+	document.getElementById("IcedBeverages_BoldNColdBrew_S_VitaminD").innerHTML="0%";
+	document.getElementById("IcedBeverages_BoldNColdBrew_S_VitaminE").innerHTML="110%";
+	document.getElementById("IcedBeverages_BoldNColdBrew_S_VitaminB1").innerHTML="0%";
+	document.getElementById("IcedBeverages_BoldNColdBrew_S_VitaminB2").innerHTML="2%";
+	document.getElementById("IcedBeverages_BoldNColdBrew_S_Zinc").innerHTML="0%";
+	document.getElementById("IcedBeverages_BoldNColdBrew_S_Caffeine").innerHTML="216mg";
+	};
 
-
-function JuicesInfo() {
-	
+	function JuicesInfo() {
 	//Juices
 	
 	
@@ -2330,12 +2389,9 @@ function JuicesInfo() {
 	document.getElementById("Juices_VeggieVitality_S_VitaminB2").innerHTML="20%";
 	document.getElementById("Juices_VeggieVitality_S_Zinc").innerHTML="6%";
 	document.getElementById("Juices_VeggieVitality_S_Caffeine").innerHTML="0mg";
-	
-}
+	};
 
-
-function ShotsInfo() {
-	
+	function ShotsInfo() {
 	//Shots
 	
 	
@@ -2365,14 +2421,14 @@ function ShotsInfo() {
 	
 	//Orange Ginger Cayenne Shot
     document.getElementById("Shots_OrangeGingerShot_TotalCalories").innerHTML="25";
-	document.getElementById("Shots_OrangeGingerShot_M_CaloriesFromFat").innerHTML="0";
-	document.getElementById("Shots_OrangeGingerShot_M_TotalFat").innerHTML="0g";
-	document.getElementById("Shots_OrangeGingerShot_M_SatFat").innerHTML="0g";
-	document.getElementById("Shots_OrangeGingerShot_M_TransFat").innerHTML="0g";
-	document.getElementById("Shots_OrangeGingerShot_M_Cholesterol").innerHTML="0mg";
-	document.getElementById("Shots_OrangeGingerShot_M_Sodium").innerHTML="0mg";
-	document.getElementById("Shots_OrangeGingerShot_M_TotalCarbohydrate").innerHTML="5g";
-	document.getElementById("Shots_OrangeGingerShot_M_DietaryFiber").innerHTML="0g";
+	document.getElementById("Shots_OrangeGingerShot_CaloriesFromFat").innerHTML="0";
+	document.getElementById("Shots_OrangeGingerShot_TotalFat").innerHTML="0g";
+	document.getElementById("Shots_OrangeGingerShot_SatFat").innerHTML="0g";
+	document.getElementById("Shots_OrangeGingerShot_TransFat").innerHTML="0g";
+	document.getElementById("Shots_OrangeGingerShot_Cholesterol").innerHTML="0mg";
+	document.getElementById("Shots_OrangeGingerShot_Sodium").innerHTML="0mg";
+	document.getElementById("Shots_OrangeGingerShot_TotalCarbohydrate").innerHTML="5g";
+	document.getElementById("Shots_OrangeGingerShot_DietaryFiber").innerHTML="0g";
 	document.getElementById("Shots_OrangeGingerShot_Sugars").innerHTML="3g";
 	document.getElementById("Shots_OrangeGingerShot_Protein").innerHTML="0g";
 	document.getElementById("Shots_OrangeGingerShot_VitaminA").innerHTML="2%";
@@ -2409,12 +2465,9 @@ function ShotsInfo() {
 	document.getElementById("Shots_WheatgrassShot_VitaminB2").innerHTML="0%";
 	document.getElementById("Shots_WheatgrassShot_Zinc").innerHTML="0%";
 	document.getElementById("Shots_WheatgrassShot_Caffeine").innerHTML="0mg";
-	
-}
+	};
 
-
-function KidsInfo() {
-	
+	function KidsInfo() {
 	//Kids
 	
 	
@@ -2464,13 +2517,9 @@ function KidsInfo() {
 	document.getElementById("Kids_StrawberriesGoneBananas_VitaminB2").innerHTML="2%";
 	document.getElementById("Kids_StrawberriesGoneBananas_Zinc").innerHTML="2%";
 	document.getElementById("Kids_StrawberriesGoneBananas_Caffeine").innerHTML="0mg";
-	
-	
-}
-	
+	};
 
-function BitessInfo() {
-	
+	function BitesInfo() {
 	//Classic Handwich
     document.getElementById("Bite_ClassicHandwich_TotalCalories").innerHTML="320";
 	document.getElementById("Bite_ClassicHandwich_CaloriesFromFat").innerHTML="210";
@@ -2565,9 +2614,8 @@ function BitessInfo() {
 	document.getElementById("Bite_BelgianWaffle_VitaminB2").innerHTML="0%";
 	document.getElementById("Bite_BelgianWaffle_Zinc").innerHTML="0%";
 	document.getElementById("Bite_BelgianWaffle_Caffeine").innerHTML="0mg";	
-	
-};
-	
+	};
+
 	
 	BowlsInfo();
 	BlendsInfo();
@@ -2577,6 +2625,6 @@ function BitessInfo() {
 	JuicesInfo();
 	KidsInfo();
 	ShotsInfo();
-	BitessInfo();
+	BitesInfo();
 	
-	});
+	

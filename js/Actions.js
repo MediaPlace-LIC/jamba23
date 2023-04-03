@@ -670,15 +670,15 @@ function Beverage2J1() {
 function Beverage2J2() {
 	$("#juices-Menu").addClass("slide-out");
 	$("#juices-Menu").removeClass("slide-in");
-	$("#PurelyCarrot_info").addClass("slide-in");
-	$("#PurelyCarrot_info").removeClass("slide-out");
+	$("#GreatGreens_info").addClass("slide-in");
+	$("#GreatGreens_info").removeClass("slide-out");
 }
 
 function Beverage2J3() {
 	$("#juices-Menu").addClass("slide-out");
 	$("#juices-Menu").removeClass("slide-in");
-	$("#OrangeCarrotTwist_info").addClass("slide-in");
-	$("#OrangeCarrotTwist_info").removeClass("slide-out");
+	$("#PurelyCarrot_info").addClass("slide-in");
+	$("#PurelyCarrot_info").removeClass("slide-out");
 }
 
 
@@ -693,8 +693,8 @@ function Beverage2J4() {
 function Beverage2J5() {
 	$("#juices-Menu").addClass("slide-out");
 	$("#juices-Menu").removeClass("slide-in");
-	$("#GreatGreens_info").addClass("slide-in");
-	$("#GreatGreens_info").removeClass("slide-out");
+	$("#OrangeCarrotTwist_info").addClass("slide-in");
+	$("#OrangeCarrotTwist_info").removeClass("slide-out");
 }
 
 function Beverage2J6() {
