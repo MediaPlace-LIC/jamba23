@@ -1,16 +1,19 @@
 @font-face {
     font-family: "Charleston-Regular";
     src: url(./Fonts/Charleston-Regular.ttf) format('truetype');
+    src: url(./Fonts/Charleston-Regular.otf);
 }
 
 @font-face {
     font-family: "FilsonSoft-Black";
     src: url(./Fonts/FilsonSoft-Black.ttf) format('truetype');
+    src: url(./Fonts/FilsonSoft-Black.otf);
 }
 
 @font-face {
     font-family: "FilsonSoft-Regular";
     src: url(./Fonts/FilsonSoft-Regular.ttf) format('truetype');
+    src: url(./Fonts/FilsonSoft-Regular.otf);
 }
 
 body {
